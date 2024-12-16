@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Attendance</title>
+    <link rel="stylesheet" href="../assests/css/attendance.css">
+    <script type="module" src="/assests/js/attendance.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Mark Attendance</h2>
+        <form id="attendance-form">
+            <select id="status">
+                <option value="present">Present</option>
+                <option value="absent">Absent</option>
+                <option value="late">Late</option>
+            </select>
+            <button id="mark-attendance-btn" type="submit">Mark Attendance</button>
+        </form>
+        <p><a href="dashboard.html">Back to Dashboard</a></p>
+    </div> 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>

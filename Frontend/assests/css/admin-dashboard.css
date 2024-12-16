@@ -1,0 +1,70 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Admin Dashboard Container */
+.admin-dashboard {
+    background: #ffffff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    text-align: center;
+    width: 90%;
+}
+
+.admin-dashboard h2 {
+    font-size: 2rem;
+    color: #4a90e2;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.admin-dashboard button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.admin-dashboard button:hover {
+    background-color: #357ab7;
+    transform: scale(1.03);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .admin-dashboard {
+        padding: 20px;
+    }
+
+    .admin-dashboard h2 {
+        font-size: 1.8rem;
+    }
+
+    .admin-dashboard button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+}

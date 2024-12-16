@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Approve Leaves</title>
+    <link rel="stylesheet" href="../assests/css/approve-leave.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Leave Requests</h1>
+        <table id="leave-table">
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Reason</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Leave requests will be populated dynamically -->
+            </tbody>
+
+        </table>
+        <a href="/admin/dashboard.html" class="back-to-dashboard">Back to Dashboard</a>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../assests/js/approve-leave.js"></script>
+</body>
+</html>

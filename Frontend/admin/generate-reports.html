@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Reports</title>
+    <link rel="stylesheet" href="../assests/css/reports.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate Reports</h1>
+        <form id="report-form">
+            <label for="reportType">Select Report Type:</label>
+            <select id="reportType" required>
+                <option value="attendance">Attendance Report</option>
+                <option value="leave">Leave Requests Report</option>
+            </select>
+            <button type="submit">Generate</button>
+        </form>
+        <div id="report-result"></div>
+        <a href="/admin/dashboard.html" class="back-to-dashboard">Back to Dashboard</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="../assests/js/reports.js"></script>
+</body>
+</html>

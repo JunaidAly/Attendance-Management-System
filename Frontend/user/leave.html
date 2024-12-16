@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave Request</title>
+    <link rel="stylesheet" href="../assests/css/leave.css">
+    <script type="module" src="../assests/js/leave.js"></script>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Leave Request</h2>
+        <form id="leave-form">
+            <input type="text" id="reason" placeholder="Reason for leave" required>
+            <input type="date" id="fromDate" placeholder="From Date" required>
+            <input type="date" id="toDate" placeholder="To Date" required>
+            <button type="submit">Submit Leave Request</button>
+        </form>
+        <a href="dashboard.html">Back to Dashboard</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</body>
+</html>
